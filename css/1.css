@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+html
+{
+	background-color: 	#F3F3FA;
+}
+body
+{
+	font-family:"微軟正黑體";
+}
+#main
+{
+	width:80%;
+	padding:10px;
+	margin:60px auto 10px auto;
+	min-height:768px;
+}
+#top a
+{
+	color:#CE631C;
+	text-decoration:none;
+}
+#left
+{
+	display:inline-block;
+	width:20%;
+	padding:1%;
+	min-height:550px;
+	vertical-align:top;
+	height: auto;
+	float:left;
+}
+.ww a 
+{
+	display:block;
+	padding:20px 5px 20px 5px;
+	text-decoration:none;
+	background:#FCDFF3;  /*淺橘*/
+	margin:10px auto 10px auto;
+	color:#65350A; /*咖啡色*/
+}
+.ct
+{
+	text-align:center;
+}
+.ctt
+{
+	vertical-align: top;
+}
+.ctt img
+{
+	position:sticky;
+  	top: 0;
+}
+#right
+{
+	display:inline-block;
+	width:75%;
+	padding:1%;
+	height:550px;
+  	overflow: auto;
+}
+#bottom
+{
+	height:70px;
+	background:url(../18.png);
+	background-size:cover;
+	line-height:70px;
+	color:#000;
+}
+#bottom img{
+	opacity:0.5;
+}
+
+.al
+{
+	padding:10px;
+	text-align:center;
+}
+.all
+{
+	width:90%;
+	margin:10px auto 10px auto;
+}
+.all td
+{
+	min-width:50px;
+	padding:10px;
+}
+.tt
+{
+	background:#FE9295;
+}
+.tt td
+{
+	background:#FE9295;
+}
+.pp
+{
+	background:#FCD3D1;/*粉色*/
+}
+.pp td
+{
+	background:#FCD3D1;
+}
+.s
+{
+	display:none;
+}
+.s a{
+	background: 	#C4E1E1;
+}
+div.ww:hover > div.s 
+{
+	display:block;
+}
+.sb button
+{
+	font-size:12px;
+}
+.fb{
+  font-size: 26px;
+  font-weight: bolder;
+}
+.rightwidth{
+	width:50%;
+}
+.buyicon{
+	float:right;
+	right:10px;
+}
+.imgCommodity{
+	width:90%;
+    max-height:500px;
+}
+
+input[type=purchaseQuantity]{
+	background:#F3F3F3;
+	border:#CCC 1px solid;
+	border-radius:3px;
+	padding:5px 8px 5px 8px;
+	text-decoration:none;
+	margin:3px;
+	color:#333;
+	width:20px;
+}
+.a{
+	padding:10px;
+}
+.b{
+	min-height:400px;
+}
+.c{
+	display:block;margin:20px auto 0 auto;
+}
+.d{
+	color:#f00; font-size:28px;
+}
+.e{
+	width:100%;max-height:400px;
+}
+.f{
+	cursor:pointer;float:right;right:10px;
+}
+.g{
+	cursor:pointer;
+}
+.h{
+	width:20px;
+}
+.i{ 
+	width:100%;
+}
+.j{
+	float: right;
+}
+.pp a{
+	cursor:pointer;
+	text-decoration: none;
+	color:black;
+}
+.bu {
+	background-color: #FA8072;
+	border: none;
+	color: white;
+	padding: 7px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.ct a{
+	text-decoration: none;
+	color:black;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+.background{
+  	height:120px;
+  	width:150px;
+  	background:url(../17.png);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+@media only screen and (max-width: 600px) {
+	#left {float:none; width:100%;}
+	#right {float:none; width:100%;}
+}
+@media only screen and (max-width: 768px) {
+  	#left {float:none; width:100%;}
+	#right {float:none; width:100%;}
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 599px){
+	#left {float:none; width:100%;}
+	#right {float:none; width:100%;}
+}
